@@ -39,7 +39,7 @@ public class CustomerDao {
 		transaction.commit();
 		session.close();
 
-		return "Data Indserted ...";
+		return "Data Deleted ...";
 	}
 	
 	public String updateData(CustomerEntity c , int id) {
@@ -63,7 +63,7 @@ public class CustomerDao {
 		transaction.commit();
 		session.close();
 
-		return "Data Indserted ...";
+		return "Data Updated ...";
 	}
 	
 	public CustomerEntity getsingleData(int id) {
